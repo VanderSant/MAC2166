@@ -1,9 +1,9 @@
 /***************************************************************/
 /**                                                           **/
-/**   Vanderson da Siva dos Santos             NUSP:11259715  **/
-/**   Exercício-Programa 02                                   **/
-/**   Professor: Alair Pereira do Lago                        **/
-/**   Turma: 03                                               **/
+/**   MAC2166 - 2019                                          **/
+/**   Vanderson Santos                                        **/
+/**   Exercicio-Programa 02                                   **/
+/**   Professor: Alair                                        **/
 /**                                                           **/
 /***************************************************************/
 
@@ -11,7 +11,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// declações de funções
+// declaï¿½ï¿½es de funï¿½ï¿½es
 double NovaCaixa(double);
 int chao(double);
 double RaizCubica(double);
@@ -86,11 +86,11 @@ int main(){
      N=10000;
      printf("%.1f  %d ",teto,derrotas);
      na=chao(((100*derrotas)/N)+0.5);
-     asteriscos(na);     //função void somente para criar-se os asteriscos.
+     asteriscos(na);     //funï¿½ï¿½o void somente para criar-se os asteriscos.
      printf("\n"); }
 return 0;}
 
-// definições das funções
+// definiï¿½ï¿½es das funï¿½ï¿½es
 double RaizCubica(double x){
     double ep=1;      //epsilon
     double rn;        //r(n)

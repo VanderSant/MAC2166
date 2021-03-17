@@ -1,9 +1,9 @@
 /***************************************************************/
 /**                                                           **/
-/**   Vanderson da Silva dos Santos          NUSP: 11259715   **/
-/**   Exercício-Programa 01                                   **/
+/**   MAC2166 - 2019                                          **/
+/**   Vanderson Santos                                        **/
+/**   Exercicio-Programa 01                                   **/
 /**   Professor: Alair                                        **/
-/**   Turma: 3                                                **/
 /**                                                           **/
 /***************************************************************/
 
@@ -17,7 +17,7 @@ int main()
     int senha;
     int palpite;
     int pinos=0;    //pinos pretos
-    int Npalpites;  // contador de palpites(número de palpites)
+    int Npalpites;  // contador de palpites(nï¿½mero de palpites)
     int CNpalpites; //copia do Npalpites
     int Cpalpite;   // copia de palpite
     int Csenha;     // copia da senha
@@ -40,7 +40,7 @@ int main()
         senha = senha*10 + (rand() % c + 1);}
         CNpalpites= Npalpites;
 
-    while((Npalpites !=0)&&(pinos!=k)){  // o looping só deve terminar quando os palpites acabarem ou a senha for acertada, ou seja, os pinos pretos for igual ao numero de digitos da senha
+    while((Npalpites !=0)&&(pinos!=k)){  // o looping sï¿½ deve terminar quando os palpites acabarem ou a senha for acertada, ou seja, os pinos pretos for igual ao numero de digitos da senha
     printf("Digite seu palpite: ", k);
     scanf("%d", &palpite);
     Cpalpite=palpite;
@@ -56,7 +56,7 @@ int main()
         else{
             Cpalpite=Cpalpite/10;
             Csenha=Csenha/10;}
-        }while((a>0)||(b>0));  //enquanto o numero não for totalmente descascado o loopin irá continuar.
+        }while((a>0)||(b>0));  //enquanto o numero nï¿½o for totalmente descascado o loopin irï¿½ continuar.
     pinos= pinos-1;
     printf("%d pretos \n", pinos);
     Npalpites= Npalpites-1;

@@ -1,12 +1,11 @@
 /***************************************************************/
 /**                                                           **/
-/**   Vanderson da Silva dos Santos           NUSP:11259715   **/
-/**   Exercício-Programa 3                                    **/
+/**   MAC2166 - 2019                                          **/
+/**   Vanderson Santos                                        **/
+/**   Exercicio-Programa 01                                   **/
 /**   Professor: Alair                                        **/
-/**   Turma: 3                                                **/
 /**                                                           **/
 /***************************************************************/
-
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -37,8 +36,8 @@ int main(){
   int cont=0;               //contador 1
   int cont2=0;              //contador 2
   double s;                 //semente
-  int mp[MMAX][NMAX]={0};   // matriz principal(armazenerá a quantidade de bombas vizinhas de cada casa do campo minado)
-  char mc[MMAX][NMAX];      //matriz que mostra a condição da matriz(aberta, fechada ou marcada);
+  int mp[MMAX][NMAX]={0};   // matriz principal(armazenerï¿½ a quantidade de bombas vizinhas de cada casa do campo minado)
+  char mc[MMAX][NMAX];      //matriz que mostra a condiï¿½ï¿½o da matriz(aberta, fechada ou marcada);
 
 
   printf("Numero de linhas (3 <= m <= 90): ");
@@ -116,7 +115,7 @@ int main(){
         if(mp[i+1][j+1]==-1){
             mp[i][j]=mp[i][j]+1;}}}}
     CaL=(m*n)-z;
- //Para evitar colocar uma função dentro da outra ou deixar uma funçao muito grande eu separei a
+ //Para evitar colocar uma funï¿½ï¿½o dentro da outra ou deixar uma funï¿½ao muito grande eu separei a
  //impressao do campo minado em tres funcoes
  ComecoDoTabuleiro(n);
  printf("\n");
