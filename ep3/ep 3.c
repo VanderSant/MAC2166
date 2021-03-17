@@ -2,7 +2,7 @@
 /**                                                           **/
 /**   MAC2166 - 2019                                          **/
 /**   Vanderson Santos                                        **/
-/**   Exercicio-Programa 01                                   **/
+/**   Exercicio-Programa 03                                   **/
 /**   Professor: Alair                                        **/
 /**                                                           **/
 /***************************************************************/
