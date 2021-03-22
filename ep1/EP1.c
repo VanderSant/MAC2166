@@ -1,15 +1,16 @@
-/***************************************************************/
-/**                                                           **/
-/**   MAC2166 - 2019                                          **/
-/**   Vanderson Santos                                        **/
-/**   Exercicio-Programa 01                                   **/
-/**   Professor: Alair                                        **/
-/**                                                           **/
-/***************************************************************/
+/**
+ *                                                          
+ *  @file   EP1.c                                       
+ *  @author Vanderson Santos                                                                           
+ *  @brief  Exercício Programa 1 - MAC2166 - 2019
+ *                                        
+ */                                                          
+
 
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
+
 int main()
 {
     int c;          //quantidade de cores diferentes
@@ -44,28 +45,29 @@ int main()
     CNpalpites= Npalpites;
 
     while((Npalpites !=0)&&(pinos!=k)){  // o looping so deve terminar quando os palpites acabarem ou a senha for acertada, ou seja, os pinos pretos for igual ao numero de digitos da senha
-    printf("Digite seu palpite: ", k);
-    scanf("%d", &palpite);
-    Cpalpite=palpite;
-    Csenha=senha;
-    pinos=0;
+        printf("Digite seu palpite: ", k);
+        scanf("%d", &palpite);
+        Cpalpite=palpite;
+        Csenha=senha;
+        pinos=0;
 
-    do{
-        a=Cpalpite%10;
-        b=Csenha%10;
-        if(a==b){
-            pinos= pinos+1;
-            Cpalpite=Cpalpite/10;
-            Csenha=Csenha/10;
-            }
-        else{
-            Cpalpite=Cpalpite/10;
-            Csenha=Csenha/10;}
+        do{
+            a=Cpalpite%10;
+            b=Csenha%10;
+            if(a==b){
+                pinos= pinos+1;
+                Cpalpite=Cpalpite/10;
+                Csenha=Csenha/10;
+                }
+            else{
+                Cpalpite=Cpalpite/10;
+                Csenha=Csenha/10;}
         }while((a>0)||(b>0));  //enquanto o numero nao for totalmente descascado o loopin ir� continuar.
-    pinos= pinos-1;
-    printf("%d pretos \n", pinos);
-    Npalpites= Npalpites-1;
-    cont=cont+1;
+
+        pinos= pinos-1;
+        printf("%d pretos \n", pinos);
+        Npalpites= Npalpites-1;
+        cont=cont+1;
     }
 
     if(pinos==k){
