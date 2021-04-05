@@ -1,2 +1,2 @@
 # MAC2166
-MAC2166 2019
+Repository of exercises program to dicipline MAC2166 - 2019
