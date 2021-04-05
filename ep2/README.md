@@ -4,93 +4,133 @@
 
 # Las Begas
 
-O dono de um cassino de “Las Begas”, em “ABUSA”, pretente fazer uma m´aquina jogadora de
+O dono de um cassino de “Las Begas”, em “ABUSA”, pretente fazer uma máquina jogadora de
 “Seven & Half” para jogar contra seus clients, digo, seus clientes. O dono do cassino, Mr. H. R. Whole,
-deseja que o jogador aposte contra a m´aquina (que faz as vezes da banca) como descreveremos abaixo.
+deseja que o jogador aposte contra a máquina (que faz as vezes da banca) como descreveremos abaixo.
 
 ## Regras do jogo
 
-Daremos primeiramente a descri¸c˜ao do jogo como normalmente ´e jogado em ABUSA.
+Daremos primeiramente a descrição do jogo como normalmente é jogado em ABUSA.
 
-• Antes de qualquer sorteio, o apostador aposta x d´olas (pronuncia-se d´o-las) e a banca “banca”
+• Antes de qualquer sorteio, o apostador aposta x dólas (pronuncia-se dó-las) e a banca “banca”
 a aposta, ou seja, faz uma aposta de mesmo valor. Ao final do jogo, o vencedor leva todo o
-dinheiro: 2x d´olas.
+dinheiro: 2x dólas.
 
-• Tanto a banca quanto o apostador s˜ao genericamente chamados de jogador.
+• Tanto a banca quanto o apostador são genericamente chamados de jogador.
 
-• Dizemos que a pontua¸c˜ao de um jogador ´e o total dos valores das cartas que foram sorteadas
-para este jogador. Vence aquele jogador cuja pontua¸c˜ao for maior. Em caso de empate, vence
-aquele que fez a pontua¸c˜ao com o menor n´umero de cartas. Caso ainda haja empate a banca
+• Dizemos que a pontuação de um jogador é o total dos valores das cartas que foram sorteadas
+para este jogador. Vence aquele jogador cuja pontuação for maior. Em caso de empate, vence
+aquele que fez a pontuação com o menor número de cartas. Caso ainda haja empate a banca
 embolsa o dinheiro.
 
 • A banca administra o baralho e sorteia, suponha que honestamente, as cartas. Primeiro, tantas
 cartas quanto o apostador quiser; em seguida, tantas cartas quanto a banca desejar para si.
 
-• A cada novo sorteio, a carta sorteada ´e virada sobre a mesa de modo que o jogador e a banca a
+• A cada novo sorteio, a carta sorteada é virada sobre a mesa de modo que o jogador e a banca a
 vejam.
-• O baralho possui quarenta cartas — ´e um baralho comum em que foram retiradas as cartas oito,
-nove e dez de qualquer dos quatro n´aipes usuais1
-.
 
-• O ´as vale 1, as figuras (rei, dama e valete) valem 1
-2
-, as demais cartas valem o n´umero correspondente.
+• O baralho possui quarenta cartas — é um baralho comum em que foram retiradas as cartas oito,
+nove e dez de qualquer dos quatro náipes usuais 1.
 
-• Caso a pontua¸c˜ao de um jogador supere 7 1
-2
-, situa¸c˜ao em que se diz que o jogador estourou, o
+• O ás vale 1, as figuras (rei, dama e valete) valem 1/2, as demais cartas valem o número correspondente.
+
+• Caso a pontuação de um jogador supere 7(1/2), situação em que se diz que o jogador estourou, o
 jogador perde automaticamente.
 
-• Ap´os um jogo, o vencedor leva os 2x d´olas apostados e os jogadores podem reiniciar outro jogo
+• Após um jogo, o vencedor leva os 2x dólas apostados e os jogadores podem reiniciar outro jogo
 caso o apostador assim o deseje.
 
-## Estrat´egias dos jogadores
+## Estratégias dos jogadores
 
-Cada jogador possui um objetivo e uma estrat´egia. O objetivo de cada jogador ´e vencer. Quanto
-`as estrat´egias, estas n˜ao s˜ao muito mais complicadas.
+Cada jogador possui um objetivo e uma estratégia. O objetivo de cada jogador é vencer. Quanto
+ às estratégias, estas não são muito mais complicadas.
 
-A estrat´egia do apostador ´e pedir que a banca sorteie uma nova carta para ele enquanto achar
-necess´ario. O apostador sabe que precisa ter a maior pontua¸c˜ao poss´ıvel, sem no entanto estourar.
-Assim, adotaremos uma estrat´egia simples: adotaremos um teto para o apostador. Se sua ponta¸c˜ao
-corrente for menor que o teto, ele pede mais uma carta; caso contr´ario, ele diz `a banca que n˜ao
-quer mais nenhuma carta e, caso o apostador n˜ao tenha estourado, ela passa a sortear cartas para si
-pr´opria.
+A estratégia do apostador é pedir que a banca sorteie uma nova carta para ele enquanto achar
+necessário. O apostador sabe que precisa ter a maior pontuação possível, sem no entanto estourar.
+Assim, adotaremos uma estratégia simples: adotaremos um teto para o apostador. Se sua pontação
+corrente for menor que o teto, ele pede mais uma carta; caso contrário, ele diz  à banca que não
+quer mais nenhuma carta e, caso o apostador não tenha estourado, ela passa a sortear cartas para si
+própria.
 
-A estrat´egia da banca ´e mais simples ainda. Se o apostador n˜ao tiver estourado (caso contr´ario a
-banca j´a teria ganho) ela vai sorteando cartas para si enquanto a pontua¸c˜ao obtida n˜ao lhe garantir
-a vit´oria sobre o apostador e houver ainda alguma chance de obter uma pontua¸c˜ao vencedora com um
-novo sorteio. Ao final, a banca ter´a feito uma pontua¸c˜ao que lhe garanta a vit´oria sobre o apostador,
-ou ter´a estourado.
+A estratégia da banca é mais simples ainda. Se o apostador não tiver estourado (caso contrário a
+banca já teria ganho) ela vai sorteando cartas para si enquanto a pontuação obtida não lhe garantir
+a vitória sobre o apostador e houver ainda alguma chance de obter uma pontuação vencedora com um
+novo sorteio. Ao final, a banca terá feito uma pontuação que lhe garanta a vitória sobre o apostador,
+ou terá estourado.
 
 ## A simulação
 
-O dono do cassino, Mr. Whole, decidiu contratar vocˆes para fazer um programa que simule o jogo
-de suas m´aquinas de “Seven n Half”. Como vimos antes, o apostador joga contra a m´aquina que por
+O dono do cassino, Mr. Whole, decidiu contratar vocês para fazer um programa que simule o jogo
+de suas máquinas de “Seven n Half”. Como vimos antes, o apostador joga contra a máquina que por
 sua vez faz o papel da banca.
-Por simplicidade2
-, ap´os sortear uma carta qualquer, o jogador em quest˜ao contabiliza os pontos
-da carta que foi sorteada para si e a carta ´e devolvida ao baralho. O mesmo ´e ent˜ao honestamente
-embaralhado antes de um novo sorteio de uma carta, caso seja necess´ario. Assim, o sorteio de uma
-segunda carta ´e completamente independente da carta sorteada na vez anterior. Pode inclusive repetirse a mesma carta.
-Na pr´oxima se¸c˜ao explicamos como deve ser feito o sorteio.
-Mr. Hole, digo Mr. Whole, deseja saber se a sua m´aquina de Seven & Half auferir´a bons lucros,
-qualquer que seja a estrat´egia adotada pelo apostador. Por isto, o dono do cassino3 quer fazer um
-programa em C que simule os jogos de suas m´aquinas. Seu programa deve testar as estrat´egias do
-apostador e da banca CONFORME descrito anteriormente, para todos os valores poss´ıveis que teto
-possa assumir. Para cada valor de teto, de 1
-2
-a 7 1
-2
-(em passos de tamanho 1
-2
+
+Por simplicidade 2, após sortear uma carta qualquer, o jogador em questão contabiliza os pontos
+da carta que foi sorteada para si e a carta é devolvida ao baralho. O mesmo é então honestamente
+embaralhado antes de um novo sorteio de uma carta, caso seja necessário. Assim, o sorteio de uma
+segunda carta é completamente independente da carta sorteada na vez anterior. Pode inclusive repetirse a mesma carta.
+
+Na próxima seção explicamos como deve ser feito o sorteio.
+
+Mr. Hole, digo Mr. Whole, deseja saber se a sua máquina de Seven & Half auferirá bons lucros,
+qualquer que seja a estratégia adotada pelo apostador. Por isto, o dono do cassino 3 quer fazer um
+programa em C que simule os jogos de suas máquinas. Seu programa deve testar as estratégias do
+apostador e da banca CONFORME descrito anteriormente, para todos os valores possíveis que teto
+possa assumir. Para cada valor de teto, de 1/2
+a 7(1/2)
+(em passos de tamanho 1/2
 ), o programa deve simular
-N=10000 jogos e computar em quantos jogos o apostador venceu. Chamemos de derrotas o n´umero
-de vezes que o apostador venceu (portanto o n´umero de vezes que a m´aquina de Mr. Hole Rule Whole
+N=10000 jogos e computar em quantos jogos o apostador venceu. Chamemos de derrotas o número
+de vezes que o apostador venceu (portanto o número de vezes que a máquina de Mr. Hole Rule Whole
 perdeu). Para cada um destes testes com teto em 0.5, 1.0, 1.5, 2.0, . . . , 7.5, o programa deve imprimir
-uma linha dizendo qual valor de teto que est´a sendo considerado, quantas vezes o apostador venceu
+uma linha dizendo qual valor de teto que está sendo considerado, quantas vezes o apostador venceu
 (o valor de derrotas) e, em seguida, uma quantidade de caracteres ’*’ que represente o valor de
 derrotas, de forma que sejam impressos 100 caracteres quando derrotas for N. Assim, para chao(x)
-sendo uma fun¸c˜ao que devolve o maior inteiro n˜ao maior que um real n˜ao negativo x, DEVERAO ser ˜
+sendo uma função que devolve o maior inteiro não maior que um real não negativo x, DEVERAO ser ˜
 impressos exatamente chao( 100*(derrotas/N) + 0.5 ) caracteres ’*’. Se para teto=2.5 e teto=3
-os valores encontrados de derrotas forem, respectivamente, 2049 e 2850, dever˜ao ser impressas linhas
-como as abaixo, com 20 e 29 caracteres ’*’, respectivamente:
+os valores encontrados de derrotas forem, respectivamente, 2049 e 2850, deverão ser impressas linhas
+como as abaixo, com 20 e 29 caracteres " * ".
+
+Fazer bons sorteios por computador, que deixem um estatístico satisfeito, é bem difícil, e neste EP
+usaremos o seguinte algoritmo.
+
+Adotaremos uma caixa mágica, que contém um número real, e, a cada sorteio, o valor dessa caixa
+é alterado conforme as regras:
+
+rifa = 9821.0 * RaizCubica(caixa) + 0.211327
+
+caixa = rifa - chao( rifa )
+
+RaizCubica(x) é uma função que computa a raiz cúbica do real x.
+Note que a biblioteca matemática já tem as funções floor e pow que permitem computar
+as funções acima. Só que não é para usá-las, nem semelhantes! é parte do
+EP implementar as funções acima mencionadas. A partir da definição, é fácil codifícar chao. Para a função RaizCubica, você deve adotar uma aproximação obtida pela
+recorrência rn definida como:
+
+Rn = x, se n=0,
+
+Rn = (2/3)*R(n-1) + ((x/3) * ( 1/(R²(n-1) ) ), se n>0
+
+As fórmulas em (1) e (2), executadas nesta ordem, fornecem-nos um número real caixa no intervalo
+[0; 1[. Assim define-se a função NovaCaixa, que recebe um real caixa como par^ametro e devolve uma
+nova caixa. Para obter um número inteiro entre 1 e 10 em função do novo valor de caixa, basta fazer
+a seguinte conta:
+
+carta = chao( caixa*10 + 1 );
+
+Isto nos fornece uma carta, sendo que 8, 9 e 10 representam respectivamente uma dama, valete e
+rei. Observe que os naipes não interessam. Sempre que for desejado o sorteio de uma nova carta, o
+programa DEVE primeiro obter NovaCaixa(caixa), uma nova caixa em função da corrente, para em
+seguida usar o passo (3) de forma a obter a carta correspondente á nova caixa obtida.
+
+Observe que, durante as repetições dos passos (1) e (2), o valor da variável caixa vai sendo
+alterado e portanto os valores sorteados para as cartas vão se alterando.
+
+Note que o valor da caixa depende do anterior, mas é preciso começar com algo, também chamado
+de semente. Para isso, seu programa deve ler (do teclado) um número inteiro. Em seguida, deve ser
+colocado em caixa o número real que decorre de colocar um ponto decimal na frente do desse inteiro
+lido.
+
+Ex: se foi lido 12343, caixa = .12343
+
+
+
